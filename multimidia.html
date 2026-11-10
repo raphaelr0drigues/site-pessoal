@@ -1,0 +1,56 @@
+<!DOCTYPE html>  
+<html lang="pt-br">  
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimídia</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header class="site-header">
+        <button id="theme-toggle" class="theme-btn">Alternar Tema</button>
+        <nav class="menu" aria-label="Navegação principal">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="curriculo.html">Currículo</a></li>
+                <li><a href="formulario.html">Formulário</a></li>
+                <li><a href="multimidia.html">Multimídia</a></li>
+                <li><a href="graficos.html">Gráficos</a></li>
+            </ul>
+        </nav>
+        <h1>Galeria Multimídia</h1>
+    </header>
+
+    <main class="media-grid">
+        <section class="cartao" style="text-align: center;">
+            <h2>Meu Vídeo</h2>
+            <video width="440" height="360" controls> 
+                <source src="videeo.mp4" type="video/mp4"> 
+                Seu navegador não suporta a tag de vídeo. 
+            </video> 
+        </section>
+        
+        <section class="cartao" style="text-align: center;">
+            <h2>Meu Áudio</h2>
+            <audio controls> 
+                <source src="headlock.mp3" type="audio/mpeg"> 
+                Seu navegador não suporta o elemento de áudio. 
+            </audio> 
+        </section>
+         
+        <section class="cartao" style="text-align: center;">
+            <h2>Iframe do YouTube</h2>
+            <iframe src="https://www.youtube.com/embed/-igoPz__fng"
+            width="360" height="315" 
+            style="border: none;"
+            allowfullscreen> 
+            </iframe> 
+        </section>
+    </main>
+
+    <footer style="text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid #ddd; color: #777;">
+        <p><em>Feito por Raphael Rodrigues — 2026</em></p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>  
+</html>
