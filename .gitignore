@@ -1,0 +1,16 @@
+# Ficheiros do sistema operativo
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Configurações de editores/IDEs
+.vscode/
+.idea/
+
+# Caches e dependências (caso venhas a usar no futuro)
+node_modules/
+*.log
+
+# Ficheiros comprimidos/temporários
+*.zip
+*.rar
